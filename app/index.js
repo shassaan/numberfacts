@@ -1,4 +1,3 @@
-//console.log("hello")
 const numberInput = document.querySelector('#number');
 const factDiv = document.querySelector('#fact');
 const factType = document.querySelector('#factType');
