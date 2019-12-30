@@ -36,9 +36,9 @@ searchBtn.addEventListener('click', () => {
     searchBtn.innerHTML = "Searching...";
     let url = '';
     if (factType.value === "date") {
-        url = `http://numbersapi.com/${month.value}/${numberInput.value}/date?default=No Fact Found.`;
+        url = `https://numbersapi.com/${month.value}/${numberInput.value}/date?default=No Fact Found.`;
     } else {
-        url = `http://numbersapi.com/${numberInput.value}/${factType.value}?default=No Fact Found.`;
+        url = `https://numbersapi.com/${numberInput.value}/${factType.value}?default=No Fact Found.`;
     }
     fetch(url, {
         method: "GET",
